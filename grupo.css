@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background: black;
+     font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.grupo_conted{
+    width: 90%;
+    height: 30rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    border: 1px solid white;
+    margin-top: 50%;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.tex_grub{
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    color: red;
+    
+}
+
+.subtext{
+    text-align: center;
+    color: rgba(255, 248, 248, 0.755);
+    margin-bottom: 2rem;
+ 
+}
+
+.boton_{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+
+}
+
+
+.boton_ a{
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 1rem 1rem ;
+    text-transform: capitalize;
+ 
+
+
+}
+
+
+.boton_ a i{
+    padding-right: 2rem;
+    font-size: 3rem;
+}
+
+.item1{
+    background: blue;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 2rem;
+
+}
+
+.item2{
+    background: rgb(0, 191, 16);
+    border-radius: 5px;
+    color: white;
+
+}
